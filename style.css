@@ -1,9 +1,9 @@
 @import url("css/bootstrap-arabic.css");
-@import url("css/lavish-bootstrap.css");
 
 body {
  direction: rtl;
   font-family: 'Cairo', sans-serif;
+ 
 
 }
 
@@ -19,4 +19,14 @@ body {
 	padding-top: 30px;
 	
 }
+
+footer {
+
+	text-align: center;
+}
+.jumbotron {
+
+
+}
+
 
