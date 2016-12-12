@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /arabicweb
+exclude: ['README.md']
