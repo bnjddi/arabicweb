@@ -1,4 +1,4 @@
 markdown: redcarpet
 baseurl: /arabicweb
 exclude: ['README.md']
-theme: jekyll-theme-hacker
+theme: jekyll-theme-merlot
