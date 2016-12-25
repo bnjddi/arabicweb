@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-static-top">
+<nav class="navbar navbar-inverse navbar-static-top ">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -7,21 +7,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ site.baseurl}}">الويب العربي</a>
-        </div>
+<a class="navbar-brand" href="{{ site.baseurl}}/">الويب العربي</a>
+          </div> 
+          
+        
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">الرئيسية</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">JAVASCRIPT</a></li>
-            <li><a href="#">JQUERY</a></li>
-            <li><a href="#">BOOTSTRAP</a></li>
-            <li><a href="#">الألوان</a></li>
-            <li><a href="#">أيقونات</a></li>
-            <li><a href="#">موارد متجهية</a></li>
-            <li><a href="#">الجرافيك</a></li>
-          </ul>
+           <ul class="nav navbar-nav navbar-right">
+            <li class="{% if page.title == 'index.html' %} active {% endif %}"><a href="{{site.baseurl}}/"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="{% if page.url contains 'html' %} active {% endif %}"><a href="{{site.baseurl}}/html">HTML</a></li>
+            <li class="{% if page.url contains 'html' %} active {% endif %}"><a href="#">CSS</a></li>
+            <li class="{% if page.url contains 'html' %} active {% endif %}"><a href="#">CSS</a></li>
+            <li class="{% if page.url contains 'html' %} active {% endif %}"><a href="#">CSS</a></li>
+            <li class="{% if page.url contains 'html' %} active {% endif %}"><a href="#">CSS</a></li>
+             
+          </ul> 
+              
         </div><!--/.nav-collapse -->
       </div>
     </nav>
